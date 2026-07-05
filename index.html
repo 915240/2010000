@@ -119,9 +119,10 @@
   .rule{height:1px;background:rgba(38,48,27,0.18);margin:16px 0;}
 
   /* 내 정보 */
-  .me{margin-bottom:14px;}
-  .me .photo.small{max-width:120px;margin-bottom:14px;}
-  .me .me-txt{width:100%;}
+  .me{display:flex;gap:14px;align-items:flex-start;margin-bottom:14px;}
+  .me .photo.side{width:112px;flex-shrink:0;}
+  .me .photo.side img{aspect-ratio:3/4;object-fit:cover;}
+  .me .me-txt{flex:1;min-width:0;}
   .me .me-txt p{letter-spacing:.04em;line-height:1.85;}
   .g-row{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
   .g-lb{font-family:var(--font-dig);font-size:12px;width:96px;flex-shrink:0;color:var(--ink-dim2);}
@@ -310,6 +311,7 @@
           <p class="eyebrow">** MY PAGER **</p>
           <h1>새벽이 <span style="font-size:11px;color:var(--ink-dim2);font-family:var(--font-dig);letter-spacing:.06em;">@H0PEY0UL0VEME</span></h1>
           <div class="me">
+            <div class="photo side"><img src="https://placehold.co/240x320/222a12/aeb98a?text=+" alt="프로필 사진"></div>
             <div class="me-txt">
               <div class="field"><span class="k">PLATFORM</span><span class="v">Caveduck, Elyn</span></div>
               <div class="field"><span class="k">LOVERS</span><span class="v">구일오, 이공팔, MOAW&DAE, MORTEX MART｜Syndrom, Krama｜Leto, Silvio </span></div>
