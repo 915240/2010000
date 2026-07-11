@@ -128,7 +128,13 @@
   .me .me-txt{flex:1;min-width:0;}
   .me .me-noti{flex:1;min-width:0;}
   .me .me-noti .noti-block{margin-top:0;margin-bottom:12px;}
-  .me .me-noti .noti-title{font-family:var(--font-dig);font-size:11px;letter-spacing:.08em;color:var(--ink-dim2);padding-bottom:8px;margin-bottom:10px;border-bottom:1px solid rgba(38,48,27,0.18);}
+  .me .me-txt .noti-title,
+  .me .me-noti .noti-title{
+    font-family:var(--font-dig);font-size:11px;letter-spacing:.08em;
+    color:var(--ink-dim2);height:20px;line-height:20px;
+    margin:0 0 10px;padding:0;
+    border-bottom:1px solid rgba(38,48,27,0.18);
+  }
   .me .me-txt p{letter-spacing:.04em;line-height:1.85;}
   .g-row{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
   .g-lb{font-family:var(--font-dig);font-size:12px;width:96px;flex-shrink:0;color:var(--ink-dim2);}
